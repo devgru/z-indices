@@ -1,8 +1,20 @@
 # z-indices
 
-A simple javascript utility for calculating z-index.
+> A simple javascript utility for calculating z-index.
 
-Usage:
+Distributed as UMD module.
+
+## Installing
+
+```sh
+$ yarn add z-indices
+# or
+$ npm install --save z-indices
+```
+
+## Usage
+
+Provide configuration dictionary object then pass arrays of keys to calculate z-index.
 
 ```js
 import zIndices from 'z-indices';
@@ -18,5 +30,9 @@ zIndex(['foreground', 'popup']); // 1010
 
 ## Development
 
-* Run tests: `npm run test`;
-* Build `npm run build`;
+* Run tests: `yarn test`;
+* Build `yarn build`;
+
+## License
+
+MIT © [Dmitriy Semyushkin](https://devg.ru)

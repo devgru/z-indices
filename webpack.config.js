@@ -1,5 +1,4 @@
-/* jshint node: true */
-var path = require('path');
+const path = require('path');
 
 module.exports = {
   context: path.join(__dirname),
@@ -7,7 +6,7 @@ module.exports = {
 
   output: {
     path: path.join(__dirname),
-    filename: 'z-indices.js',
+    filename: 'dist.js',
     libraryTarget: 'umd',
     library: 'ZIndices'
   },

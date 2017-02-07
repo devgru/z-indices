@@ -1,18 +1,18 @@
 {
   "name": "z-indices",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "A simple javascript utility for calculating z-index",
   "scripts": {
     "test": "react-scripts test --env=jsdom",
-    "lint": "eslint lib/*.js spec/*.js",
     "build": "webpack -p",
     "prepublish": "npm run lint && npm run build"
   },
   "files": [
-    "z-indices.js"
+    "dist.js"
   ],
-  "main": "z-indices.js",
-  "author": "",
+  "main": "dist.js",
+  "repository": "devgru/z-indices",
+  "author": "Dmitriy Semyushkin <git@devg.ru> (https://devg.ru)",
   "license": "MIT",
   "keywords": [
     "z-index",
