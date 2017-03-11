@@ -13,7 +13,7 @@ describe('z-indices', () => {
     expect(zIndex).toBe(50);
   });
   
-  it('should work with several key', function () {
+  it('should work with several keys', function () {
     const zIndex = zIndices({
       'popup': 50,
       'atop': 100
