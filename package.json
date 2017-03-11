@@ -1,6 +1,6 @@
 {
   "name": "z-indices",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "A simple javascript utility for calculating z-index",
   "scripts": {
     "build": "webpack -p",
