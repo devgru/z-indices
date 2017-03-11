@@ -18,8 +18,7 @@ module.exports = {
         exclude: /node_modules/,
         loader: 'babel-loader',
         query: {
-          optional: ['runtime'],
-          stage: 0
+          presets: ['es2015'],
         }
       }
     ]
