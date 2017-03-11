@@ -1,6 +1,6 @@
 {
   "name": "z-indices",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple javascript utility for calculating z-index",
   "scripts": {
     "test": "react-scripts test --env=jsdom",
