@@ -1,4 +1,4 @@
-import zIndices from '../lib';
+import zIndices from '../dist.js';
 
 describe('z-indices', () => {
   it('should work without config', function () {
